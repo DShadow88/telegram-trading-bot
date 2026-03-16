@@ -1,0 +1,47 @@
+{
+  "_comment": "COPY ONE OF THESE INTO YOUR TRADINGVIEW ALERT MESSAGE BOX",
+
+  "LONG_SIGNAL_SINGLE_TP": {
+    "symbol": "{{ticker}}",
+    "side": "Long",
+    "entry": "{{close}}",
+    "tp": "REPLACE_WITH_TP",
+    "sl": "REPLACE_WITH_SL",
+    "timeframe": "{{interval}}",
+    "note": "Your custom note here"
+  },
+
+  "SHORT_SIGNAL_SINGLE_TP": {
+    "symbol": "{{ticker}}",
+    "side": "Short",
+    "entry": "{{close}}",
+    "tp": "REPLACE_WITH_TP",
+    "sl": "REPLACE_WITH_SL",
+    "timeframe": "{{interval}}",
+    "note": "Your custom note here"
+  },
+
+  "LONG_SIGNAL_MULTI_TP": {
+    "symbol": "{{ticker}}",
+    "side": "Long",
+    "entry": "{{close}}",
+    "tp1": "REPLACE_WITH_TP1",
+    "tp2": "REPLACE_WITH_TP2",
+    "tp3": "REPLACE_WITH_TP3",
+    "sl": "REPLACE_WITH_SL",
+    "timeframe": "{{interval}}",
+    "note": "Fib breakout confirmed"
+  },
+
+  "SHORT_SIGNAL_MULTI_TP": {
+    "symbol": "{{ticker}}",
+    "side": "Short",
+    "entry": "{{close}}",
+    "tp1": "REPLACE_WITH_TP1",
+    "tp2": "REPLACE_WITH_TP2",
+    "tp3": "REPLACE_WITH_TP3",
+    "sl": "REPLACE_WITH_SL",
+    "timeframe": "{{interval}}",
+    "note": "Golden pocket rejection"
+  }
+}
